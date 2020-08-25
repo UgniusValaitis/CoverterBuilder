@@ -22,7 +22,7 @@ const Api = () => {
             <p className={styles.Text}>Ccy names in url are case sensitive (USE UPPERCASE)</p>
             <h3 className={styles.Section}>GET "http://ugniusvalaitis.xyz/(fromCcy)/(toCcy)/(amount)" </h3>
             <p className={styles.Text}> Returns currency rate of declared currencies and calculated amount</p>
-            <p className={styles.Text}> e.g. "http://ugniusvalaitis.xyz/EUR/EUR/200" wi;; return rate of 1 and amount of 200</p>
+            <p className={styles.Text}> e.g. "http://ugniusvalaitis.xyz/EUR/EUR/200" will return rate of 1 and amount of 200</p>
             <Link className={styles.Link} to="/">Back</Link>
         </div>
     )
