@@ -1,0 +1,58 @@
+.Main {
+  width: calc(100% - 20px);
+  max-width: 900px;
+  height: 90%;
+  margin: auto;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 50, 0.05);
+}
+
+.Header {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.Section {
+  margin-left: 10px;
+  color: var(--primary-color);
+}
+
+.Text {
+  margin-left: 20px;
+  color: var(--primary-color);
+}
+
+.Link {
+  grid-column: 2/3;
+  grid-row: 7/8;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: auto 5px;
+  background-color: #fff;
+  border: solid 1px var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  width: 38px;
+  justify-self: start;
+}
+
+.Link:hover {
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+@media screen and (max-width: 540px) {
+  .Header {
+    font-size: 1.3rem;
+  }
+  .Section {
+    font-size: 0.7rem;
+  }
+
+  .Text {
+    font-size: 0.5rem;
+  }
+}
